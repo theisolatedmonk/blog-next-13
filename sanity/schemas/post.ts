@@ -31,7 +31,7 @@ export default {
         },
         {
           type: 'image',
-          field: [
+          fields: [
             {
               type: 'text',
               name: 'alt',
