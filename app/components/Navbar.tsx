@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import React from 'react'
+import ThemeButton from './ThemeButton'
 
 
 
@@ -15,6 +16,7 @@ export default function Navbar() {
                         Jan <span className='text-teal-500'>Blog</span>
                     </h1>
                 </Link>
+                <ThemeButton/>
             </div>
         </div>
     </div>
